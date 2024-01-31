@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+font-family: 'Raleway', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+font-family: 'Ubuntu', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital,wght@1,300&display=swap');
+font-family: 'Lobster', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Signika+Negative:wght@500&family=Ubuntu:ital,wght@1,300&display=swap');
+font-family: 'Signika Negative', sans-serif;

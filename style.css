@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Signika+Negative:wght@500&family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+    background-color: #6a7c7e;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Signika Negative', sans-serif;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    height: 65px;
+    align-items: center;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+nav li a:hover{
+color: rgb(99, 211, 127);
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.brand img{
+    width: 55px;
+    padding: 0 15px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    width: 75%;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: black;
+    color: white;
+    margin: 23px auto;
+    background-image: url(bgd.jpg);
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Lobster', cursive;
+}
+.songitemcontainer{
+margin-top: 74px;
+
+}
+.songlist{
+    background-color: black;
+    color: white;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    flex-direction: column;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+.songItem img{
+width: 43px;
+border-radius: 20px;
+
+}
+.songItem{
+    display: flex;
+    align-items: center;
+   margin-top: 15px;
+    background-color: white;
+    color: black;
+    padding: 0 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Signika Negative', sans-serif;
+}
+.songinfo img{
+   opacity: 0;
+   transition:opacity 0.4s ease-in;
+}
